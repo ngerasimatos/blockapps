@@ -2,9 +2,6 @@
 ## CREATE STRATO PROJECT
 ##oc new-project $1 
 
-
-oc login -u system:admin
-
 oc adm policy add-role-to-user system:image-builder developer 
 oc adm policy add-role-to-user system:registry developer 
 oc adm policy add-role-to-user admin developer 
